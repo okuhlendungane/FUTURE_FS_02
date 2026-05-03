@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="Form-Container">
+<div class="Login-form">
+    <form id="customerForm">
+        <h2>Add New Customer</h2>
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <input type="text" name="source" placeholder="Source (e.g. Website, Referral)" required>
+        <select name="status" required>
+            <option value="New">New</option>
+            <option value="Contacted">Contacted</option>
+            <option value="Qualified">Converted</option>
+        </select>
+        <textarea name="notes" placeholder="Notes"></textarea>
+        <button type="submit">Save Customer</button>
+        <button type="button" onclick="addCustomer()" >Cancel</button>
+    </form>
+</div>
+    </div>
+<div class="dashboard">
+    <h1>Welcome to Your Dashboard</h1>
+            <div class="Dashboard-container"></div>
+        <table class="dashboard-table">
+            <thead>
+                <tr>
+                    <th> Name</th>
+                    <th> Email</th>
+                    <th> Source</th>
+                    <th> Status</th>
+                    <th> Notes</th>
+                </tr>
+            </thead>
+            <tbody id="customerTable">
+            </tbody>
+        </table>
+
+    </div>
+</body>
+</html>
