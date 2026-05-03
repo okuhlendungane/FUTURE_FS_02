@@ -31,9 +31,9 @@ Implementing real-world workflows (lead tracking & status updates)
 * No backend (Node.js / Express not yet implemented)
 * No database (data is not persisted after refresh)
 * Authentication is UI-based only (not secure yet)
-* 🔮 Future Improvements
-🔗 Backend integration (Node.js + Express)
-🗄️ Database (MongoDB / MySQL) for persistent storage
-🔐 Proper authentication system
-🔍 Search & filter functionality
+* 🔮 Future Improvements:
+🔗 Backend integration (Node.js + Express),
+🗄️ Database (MongoDB / MySQL) for persistent storage,
+🔐 Proper authentication system,
+🔍 Search & filter functionality,
 📊 Basic analytics (total leads, conversions)
